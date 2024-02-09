@@ -13,7 +13,26 @@
         <div id="poem" class="poem">
             <!-- The poem will be dynamically rendered here -->
         </div>
-        <button id="takeHandBtn" class="hidden">Take my hand</button>
+        <button id="takeHandBtn" class="hidden">
+            <div class="container">
+                <a href="#" class="button button--piyo">
+                    <div class="button__wrapper">
+                        <span class="button__text">TAKE MY HAND</span>
+                    </div>
+                    <div class="characterBox">
+                        <div class="character wakeup">
+                            <div class="character__face"></div>
+                        </div>
+                        <div class="character wakeup">
+                            <div class="character__face"></div>
+                        </div>
+                        <div class="character">
+                            <div class="character__face"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </button>
         <div id="proposal" class="hidden">
             <h2>Will you, my dearest princess, be my lovely valentine this fine February?</h2>
             <div>
@@ -21,7 +40,6 @@
                 <button id="absolutelyYesBtn">ABSOLUTELY YES!!</button>
             </div>
             <canvas id="confetti-canvas"></canvas>
-        </div>
         </div>
     </div>
     <script src="script.js"></script>
